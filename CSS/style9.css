@@ -1,0 +1,93 @@
+body{
+  margin:0;
+}
+header{
+
+ background-color:white;
+  color:#AE275F;
+  padding:8px 0px 6px 40px;
+  height:50px;
+}
+header h1{
+
+	font-size:50px;
+	float:left;
+	color: #AE275F;
+	margin-top:0px;
+	margin-right:20px;
+	
+}
+
+nav ul{
+	padding:0;
+	float:right;
+}
+nav ul li{
+	display:inline-block;
+	list-style-type:none;
+	float:left;
+	margin-right:12px;
+}
+nav ul li a{
+	font-size:15px;
+	color:white;
+	text-decoration:none;
+}
+
+.homelog{
+
+	color: #AE275F;
+	padding:10px 10px 12px 10px;
+	
+
+}
+.homelog:hover{
+
+	background-color:#AE275F;
+	color: white;
+	padding:10px 10px 5px 10px;
+}
+.view{
+	margin-top: 200px;
+}
+.homered{
+	background-color:#AE275F;
+	color: white;
+	padding:10px 10px 12px 10px;
+}
+.divider{
+	background-color:#AE275F;
+	height:7px;
+}
+.homeblack{
+	color: #AE275F;
+	padding:10px 10px 12px 10px;
+}
+.homeblack:hover{
+
+	background-color:#AE275F;
+	color: white;
+	padding:10px 10px 12px 10px;
+}
+.image{
+	background-image:url(../images/detail.jpg);
+	width:100%;
+	height:100%;
+	opacity: 0.5;
+	background-repeat:no-repeat;
+	background-size:cover;
+
+}
+.signupbutton{
+	background-color:#AE275F;
+	width: 10%;
+	float: left;
+	margin-top:0px;
+	color:white;
+	border:none;
+	height:40px;
+	font-size:20px;
+	padding: 0ex 1ex 0ex 1ex;
+	cursor:pointer;
+	outline:none;
+}

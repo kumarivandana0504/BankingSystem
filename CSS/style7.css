@@ -1,0 +1,136 @@
+body{
+  margin:0;
+}
+header{
+
+  background-color:white;
+  color:#AE275F;
+  padding:8px 0px 6px 40px;
+  height:50px;
+}
+header h1{
+
+	color: #AE275F;
+	font-size:50px;
+	float:left;
+	margin-top:0px;
+	margin-right:20px;
+	
+	
+}
+nav ul{
+	padding:0;
+	float:right;
+}
+nav ul li{
+	display:inline-block;
+	list-style-type:none;
+	float:left;
+	margin-right:12px;
+}
+nav ul li a{
+	font-size:20px;
+	color:white;
+	text-decoration:none;
+}
+.homelog{
+	color: #AE275F;
+	float:right;	
+}
+.homelog:hover{
+
+	background-color:#AE275F;
+	color: white;
+	padding:5px 10px 5px 10px;
+}
+.homered{
+	background-color:#AE275F;
+	color: white;
+	padding:10px 10px 12px 10px;
+}
+.divider{
+	background-color:#AE275F;
+	height:7px;
+}
+.homeblack{
+	color: #AE275F;
+}
+.homeblack:hover{
+
+	background-color:#AE275F;
+	color: white;
+	padding:10px 10px 12px 10px;
+}
+.image{
+	background-image:url(../images/money.jpg);
+	width:100%;
+	height:100%;
+	opacity: 0.5;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+h2{
+	float: left;
+	color: #AE275F;
+	font-size: 40px;
+	border-bottom: 6px solid #AE275F;
+	margin-top: 80px;
+}
+.head{
+	font-size: 25px;
+	font-weight: bold;
+}
+.container{
+	width: 350px;
+	position: absolute;
+	top:40%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+}
+.inps{
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0px;
+	margin :5px 0px;
+	border-bottom: 1px solid #AE275F;
+}
+.inps i{
+	float: left;
+	text-align: center;
+	font-size: 25px;
+	color: #AE275F;
+	padding-right: 10px;
+}
+.inps input{
+	border:none;
+	outline: none;
+	background: none;
+	font-size: 15px;
+	width: 300px;
+	float:left;
+	margin: 5px;
+}
+.singupbutton{
+	background-color:#AE275F;
+	margin:2% 0% 0% 41.5%;
+	color:white;
+	border:none;
+	height:30px;
+	font-size:25px;
+	padding: 0ex 1ex 0ex 1ex;
+	cursor:pointer;
+	outline:none;
+	
+}
+.singupbutton2{
+	background-color:#AE275F;
+	margin-top: 50px;
+	color:white;
+	height:30px;
+	font-size:25px;
+	padding: 0ex 1ex 0ex 1ex;
+	cursor:pointer;
+	outline:none;
+	
+}

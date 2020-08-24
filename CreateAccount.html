@@ -1,0 +1,65 @@
+<html>
+<head>
+<link rel=stylesheet href="CSS/style4.css">
+<link rel="stylesheet" type="text/css" href="C:\banking-system\CSS\fontawesome-free-5.12.1-web\css\all.css">
+
+</head>
+<body>
+<header>
+<nav>
+<img src="images\logo.png" style="float:left ; margin-top:0px; margin-right:10px; height: 55px; width: 55px;"\>
+<h1>AXIS BANK</h1>
+<ul>
+<li><a class="homeblack" href="home.html">Home</a></li>
+<li><a class="homered" href="CreateAccount.html">NewAccount</a></li>
+<li><a class="homeblack" href="Transfer.html">Transfer </a></li>
+<li><a class="homeblack" href="checkbalance">Check Balance</a></li>
+<li><a class="homeblack" href="debit.html">Debit</a></li>
+<li><a class="homeblack" href="credit.html">Credit</a></li>
+<li><a class="homelog" href="LogoutServlet">LogOut</a></li>
+
+</ul>
+</nav>
+</header>
+
+<div class="divider"></div>
+<div class="image"></div>
+<form action="account">
+	<div class="container">
+		<h2>NEW USER</h2>
+		<div class="txt">USERNAME &nbsp &nbsp &nbsp &nbsp &nbsp
+			 <input type="text" name="txtname" />
+		</div>	 
+		<div class="txt">AADHAR NO  &nbsp &nbsp &nbsp &nbsp
+			<input type="number" name="adharno" />
+		</div>
+		<div class="txt">EMAIL ID  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+			 <input type="email" name="emailname" />
+		</div>
+		<div class="txt">MOBILE NO  &nbsp &nbsp &nbsp &nbsp &nbsp
+			  <input type="number" name="mobileno" />
+		</div>
+		<div class="txt">FATHER NAME  &nbsp &nbsp
+			 <input type="text" name="fathername" />
+		</div>
+		<div class="txt">ACCOUNT TYPE &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+			 <select class="txt2" name="accounttype">
+				 <option>Saving</option>
+				 <option>Current</option>
+				 <option>Fixed Deposit</option>
+			</select>
+		</div>
+		<div class="txt">SUBMIT BALANCE
+			 <input type="number" name="balanceno" />
+		</div>
+		<div class="txt">GENDER
+			 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input type="text" name="gendername" />
+			 
+		</div>
+			<br><input type="submit" value="CREATE" class="singupbutton"/>
+	</div>
+</form>
+
+
+</body>
+</html>
